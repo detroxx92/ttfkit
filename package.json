@@ -1,0 +1,38 @@
+{
+  "name": "ttfkit",
+  "version": "1.0.0",
+  "description": "Custom icon font generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detroxx92/ttfkit.git"
+  },
+  "keywords": [
+    "ttf",
+    "svg",
+    "font",
+    "generator",
+    "node",
+    "nodejs",
+    "docker"
+  ],
+  "author": "Maik Kluwe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/detroxx92/ttfkit/issues"
+  },
+  "homepage": "https://github.com/detroxx92/ttfkit#readme",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "punycode": "^2.1.1",
+    "svg2ttf": "^6.0.3",
+    "svgicons2svgfont": "^10.0.5"
+  }
+}
