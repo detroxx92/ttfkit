@@ -17,7 +17,10 @@ function ttfkit(fontConfig, output_function) {
     // starting unicode
     let unicode = 0xEA01;
 
-    let font_stream = new SVGIcons2SVGFontStream({fontName: fontName});
+    let font_stream = new SVGIcons2SVGFontStream({
+        fontName: fontName,
+        normalize: true,
+    });
     let output_svg = path.join(tmp_folder, 'output.svg');
     let items = [];
 
