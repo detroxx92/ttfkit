@@ -11,4 +11,4 @@ RUN git clone https://github.com/detroxx92/ttfkit.git ttfkit \
 
 WORKDIR /ttfkit
 
-CMD [ "node", "/ttfkit/server.js" ]
+CMD [ "node", "/ttfkit/src/server.js" ]
