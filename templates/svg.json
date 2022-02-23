@@ -1,0 +1,17 @@
+{
+    "font": {
+        "copyright": "string",
+        "fontName": "",
+        "familyname": "",
+        "ascent": 1000,
+        "descent": 500,
+        "glyphs": [
+            {
+                "css": "",
+                "code": 0E1,
+                "d": "",
+                "width": 35
+            }
+        ]
+    }
+}

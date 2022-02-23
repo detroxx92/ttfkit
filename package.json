@@ -26,14 +26,15 @@
   },
   "homepage": "https://github.com/detroxx92/ttfkit#readme",
   "dependencies": {
-    "argparse": "^2.0.1",
-    "express": "^4.17.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dom-parser": "^0.1.6",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
-    "punycode": "^2.1.1",
     "svg2ttf": "^6.0.3",
     "svgicons2svgfont": "^10.0.5",
-    "body-parser": "^1.19.1"
+    "svgpath": "^2.5.0",
+    "xmldom": "^0.6.0"
   }
 }
